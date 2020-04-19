@@ -1,6 +1,9 @@
 ## Setup
- TO BE COMPLETED
-
+- Bonjour ! Bienvenue sur le Quiz de Farouk !
+- Pour accéder au quiz vous devez enregistrer le fichier source dans le répertoire "wamp64/www/quiz" .
+- Lancer ensuite wampserver sur votre machine et rendez vous sur la page index.php en localhost.
+- Pour jouer il vous suffit de vous connecter avec l'identifiant: "study" et le mot de passe "advisor" .
+- A vous de jouer !
 ## Guidelines
 - Fork this repository
 - You can add any framework, library or plugin you'd like
@@ -14,13 +17,13 @@
   - You are asked to build a simple Quizz App
 
 ## User
- [ ] A user can log in with a valid username and password through a login screen
+ [X] A user can log in with a valid username and password through a login screen
 
  [ ] A user can see a collection of quizzes
 
- [ ] A user can start a quizz
+ [X] A user can start a quizz
 
- [ ] A user can answer 3 questions on a quizz
+ [X] A user can answer 3 questions on a quizz
 
  [ ] A user can see the scores of his quizzes
 
@@ -28,14 +31,14 @@
 ## Quizz
  [ ] A quizz has a Title
 
- [ ] A quizz has a maximum of 3 questions
+ [X] A quizz has a maximum of 3 questions
 
  [ ] A quizz is considered passed if +60% of questions are answered correctly
 
 ## Question
- [ ] A question has a maximum of 4 answers
+ [X] A question has a maximum of 4 answers
 
- [ ] A question has only 1 possible correct answer
+ [X] A question has only 1 possible correct answer
 
 
 ## Bonus
@@ -43,4 +46,5 @@
 
  [ ] A quizz can have a dificulty level
 
- [ ] Add or improve a feature of your own choice
+ [X] Add or improve a feature of your own choice
+(Background color change if your answer is correct or wrong !)
